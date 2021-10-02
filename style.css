@@ -1,0 +1,80 @@
+html body{
+    background-color:rgb(4 91 98);
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(77, 77, 77);
+    box-shadow: bisque;
+    border-radius: 60px;
+    padding-bottom: 30px;
+    width: 325px;
+}
+
+.display{
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background: rgb(0, 0, 0) !important;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    
+}
+
+.buttons{
+    padding: 20px 20px 0 20px ;
+
+}
+.rows{
+    width: 280px;
+    float: left;
+}
+
+.btn:hover{
+    background-color: rgb(24, 24, 24);
+    color: honeydew;
+}
+
+input[type=button]{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: rgb(199, 195, 171);
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+
+input[type=text]{
+    width: 275px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: black;
+    border-radius: 5px;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+}
+
+.blue:hover{
+    background-color: rgb(255, 59, 59);
+    
+}
